@@ -141,16 +141,16 @@ if (currentPlatform === 'win32') {
   file=file+"LinuxX64.tar.gz";
   unpackCommand="mkdir -p " +  newBaseDir + " && tar -xvzf " + file + " -C " + newBaseDir;
   unwantedDirs=[ "samp", "bin","inc","java", "gskit8/lib", ".github" ];
-//} else if (currentPlatform === 'darwin'){
+} else if (currentPlatform === 'darwin'){
 //  The MacOS client for MQ is released under a different license - 'Developers' not
 //  'Redistributable' - so we will not try to automatically download it. But all the
 //  pieces are in this script to enable it at some point.
 //
-//  dir=macDir
-//  title="IBM MacOS Toolkit for Developers"
-//  file="IBM-MQ-Toolkit-Mac-x64-" + macVrmf + ".tar.gz"
-//  unpackCommand="mkdir -p " +  newBaseDir + " && tar -xvzf " + file + " -C " + newBaseDir;
-//  unwantedDirs=[ "samp", "bin","inc","java", "gskit8/lib", ".github" ];
+  dir=macDir
+  title="IBM MacOS Toolkit for Developers"
+  file="IBM-MQ-Toolkit-Mac-x64-" + macVrmf + ".tar.gz"
+  unpackCommand="mkdir -p " +  newBaseDir + " && tar -xvzf " + file + " -C " + newBaseDir;
+  unwantedDirs=[ "samp", "bin","inc","java", "gskit8/lib", ".github" ];
 } else {
   console.log("No redistributable client package available for this platform.");
   console.log("If an MQ Client library exists for the platform, install it manually.")
