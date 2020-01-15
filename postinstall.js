@@ -132,6 +132,7 @@ if (doit != null) {
 
 // Start main processing here. Check if the install is for an environment
 // where there is a Redistributable Client.
+console.log("Your current platform is: " + currentPlatform);
 if (currentPlatform === 'win32') {
   file=file+"Win64.zip";
   unpackCommand="mkdir " +  newBaseDir;
