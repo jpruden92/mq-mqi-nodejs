@@ -15,7 +15,7 @@
   "dependencies": {
     "ffi-napi": "https://github.com/jpruden92/node-ffi-napi.git",
     "ref-array-di": ">=1.2.0",
-    "ref-napi": "^1.4.1",
+    "ref-napi": "https://github.com/jpruden92/ref-napi.git",
     "ref-struct-di": ">=1.1.0",
     "unzipper": ">=0.10.1"
   }
