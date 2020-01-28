@@ -4,8 +4,7 @@
   "description": "Bindings to call IBM MQ API",
   "main": "./lib/mqi.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "node postinstall.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Mark Taylor",
   "license": "Apache-2.0",
@@ -14,7 +13,7 @@
     "url": "https://github.com/ibm-messaging/mq-mqi-nodejs"
   },
   "dependencies": {
-    "ffi-napi": ">=2.4.5",
+    "ffi-napi": "https://github.com/jpruden92/node-ffi-napi.git",
     "ref-array-di": ">=1.2.0",
     "ref-napi": "^1.4.1",
     "ref-struct-di": ">=1.1.0",

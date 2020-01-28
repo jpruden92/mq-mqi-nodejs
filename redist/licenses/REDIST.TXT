@@ -1,0 +1,21 @@
+Program Name: IBM MQ V9.1 - 07/2019
+Program Name: IBM MQ Managed File Transfer Agent V9.1
+Program Name: IBM MQ Advanced V9.1 - 12/2019
+Program Number: 5724-H72
+
+Redistributables
+All files and/or modules from the MQC9 IBM MQ Clients SupportPac identified 
+with 'Redist' in the name or IBM MQ Clients clearly identified as being 
+redistributable through naming or in documentation may be redistributed by 
+Licensee in accordance with the provisions of the 'Redistributables' section 
+of the Program's License Information document (reference L/N: L-APIG-BBSH75).
+
+All files and/or modules from IBM FixCentral with Fix ID following the naming 
+convention <version>-IBM-MQFA-Redist-<platform> may be redistributed by 
+Licensee in accordance with the provisions of the 'Redistributables' section 
+of the Program's License Information document (reference L/N: L-APIG-AV6HR2).
+
+All files and/or modules from IBM FixCentral with Fix ID following the naming 
+convention <version>-IBM-MQFA-Redist-<platform> may be redistributed by 
+Licensee in accordance with the provisions of the 'Redistributables' section 
+of the Program's License Information document (reference L/N: L-APIG-BGMHFW).
